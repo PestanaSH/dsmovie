@@ -4,7 +4,7 @@ public class ScoreDTO {
 
     private Long movieId;
     private String email;
-    private Double scoure;
+    private Double score;
 
     public ScoreDTO() {
 
@@ -26,11 +26,11 @@ public class ScoreDTO {
         this.email = email;
     }
 
-    public Double getScoure() {
-        return scoure;
+    public Double getScore() {
+        return score;
     }
 
     public void setScoure(Double scoure) {
-        this.scoure = scoure;
+        this.score = scoure;
     }
 }
